@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Travels</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Inicio</a>
+            <a href="#About">Acerca de</a>
+            <a href="#GitHub">Mejores destinos</a>
+            <a href="#Contact">Contacto</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/Typing.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+               Tu buscador no es compatible
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Mejores destinos</h1>
+            <strong>
+                <p class="center">
+                    <q>El mundo es tan grande que a la hora de viajar necesitamos inspiración para decidirnos por un destino u otro
+                        <br>Hoy en día podemos alcanzar prácticamente cualquier rincón del planeta; miramos mapas, leemos libros de viajes, vemos películas e imágenes compartidas en redes sociales por otros viajeros, consultamos aplicaciones viajeras en nuestros móviles
+                        <br>¡Es tan difícil escoger entre todas las opciones que tenemos a nuestro alcance!.
+                    </q>
+                    <br> -Mayra Martz
+                    <br>
+                    <br>
+                    <br> Contactanos! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/html_custom.png" alt="Replace with your own image and description">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>Acerca de</h1>
+                <p>
+                    Todo viajero tiene en la mente su destino de viaje favorito en el mundo. Exóticos o cercanos, lo importante es viajar y disfrutar del viaje.  
+                    <br>
+                    <br>Realizar por primera vez un viaje sola es un gran paso, por lo que el destino que visitarás es sumamente importante, ir a un lugar peligroso es un riesgo que no hay necesidad de tomar.
+                    <br>
+                    <br>Acompáñanos a explorar estas 20 opciones para tu primer viaje solo, contactanos <a href="#Contact">Contact</a>
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>Mejores destinos</h1>
+                <p>
+                    La llamada “Ciudad de la luz” es un destino obligado para quienes viajan en solitario. Aquí te impregnarás con su atmósfera romántica y bohemia.
+                    <br>
+                    <br>París es una parada fija para quienes recorren el continente europeo solos y cuenta con una gran cantidad de sitios emblemáticos y turísticos que no te puedes perder.
+                    <br>
+                    <br>Esta es una ciudad hermosa, llena de actividad y emoción a toda hora. Planea muy bien tu viaje y luego dedícate a explorarla y disfrutarla al máximo. Es un regalo que debes hacerte al menos una vez en la vida.
+                    <br>
+                    <p class="center"><a href="https://tipsparatuviaje.com/destinos-para-viajar-sola-por-primera-vez/" target="_blank">20 mejores destinos</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://tipsparatuviaje.com/destinos-para-viajar-sola-por-primera-vez/" target="_blank"><img src="images/paris-francia.jpg" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/html_custom.png" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contacto</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Nombre:</label>
+                    
+                        <input type="text" placeholder="Ingresa tu nombre">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Ingresa tu direccion de correo">
+                    <label>Mensaje:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Ingresa un mensaje">
+                        <input type="submit" value="ENVIAR">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&Mejores Viajes.com, <a href="https://tipsparatuviaje.com/destinos-para-viajar-sola-por-primera-vez/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
